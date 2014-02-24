@@ -12,9 +12,9 @@ FBXHeaderExtension:  {
 		Month: 2
 		Day: 23
 		Hour: 23
-		Minute: 50
-		Second: 34
-		Millisecond: 205
+		Minute: 59
+		Second: 2
+		Millisecond: 122
 	}
 	Creator: "FBX SDK/FBX Plugins version 2013.3"
 	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
@@ -30,8 +30,8 @@ FBXHeaderExtension:  {
 			Comment: ""
 		}
 		Properties70:  {
-			P: "DocumentUrl", "KString", "Url", "", "C:\Users\oXL0C0Xo\AppData\Local\Temp\D429.tmp.fbx"
-			P: "SrcDocumentUrl", "KString", "Url", "", "C:\Users\oXL0C0Xo\AppData\Local\Temp\D429.tmp.fbx"
+			P: "DocumentUrl", "KString", "Url", "", "C:\Users\oXL0C0Xo\AppData\Local\Temp\943C.tmp.fbx"
+			P: "SrcDocumentUrl", "KString", "Url", "", "C:\Users\oXL0C0Xo\AppData\Local\Temp\943C.tmp.fbx"
 			P: "Original", "Compound", "", ""
 			P: "Original|ApplicationVendor", "KString", "", "", ""
 			P: "Original|ApplicationName", "KString", "", "", ""
@@ -73,7 +73,7 @@ GlobalSettings:  {
 
 Documents:  {
 	Count: 1
-	Document: 77875128, "", "Scene" {
+	Document: 80882352, "", "Scene" {
 		Properties70:  {
 			P: "SourceObject", "object", "", ""
 			P: "ActiveAnimStackName", "KString", "", "", ""
@@ -93,12 +93,12 @@ References:  {
 
 Definitions:  {
 	Version: 100
-	Count: 8
+	Count: 11
 	ObjectType: "GlobalSettings" {
 		Count: 1
 	}
 	ObjectType: "Model" {
-		Count: 3
+		Count: 5
 		PropertyTemplate: "FbxNode" {
 			Properties70:  {
 				P: "QuaternionInterpolate", "enum", "", "",0
@@ -199,7 +199,7 @@ Definitions:  {
 		}
 	}
 	ObjectType: "Geometry" {
-		Count: 1
+		Count: 2
 		PropertyTemplate: "FbxMesh" {
 			Properties70:  {
 				P: "Color", "ColorRGB", "Color", "",0.8,0.8,0.8
@@ -268,7 +268,7 @@ Definitions:  {
 ;------------------------------------------------------------------
 
 Objects:  {
-	Geometry: 230885424, "Geometry::", "Mesh" {
+	Geometry: 190741672, "Geometry::", "Mesh" {
 		Vertices: *36 {
 			a: 444,0,-0,555,0,-0,555,49.6328571428571,-0,444,49.6328571428571,-0,222,0,-0,333,0,-0,333,49.6328571428571,-0,222,49.6328571428571,-0,111,0,-0,111,49.6328571428571,-0,0,0,-0,0,49.6328571428571,-0
 		} 
@@ -326,7 +326,65 @@ Objects:  {
 			}
 		}
 	}
-	Model: 232104840, "Model::Model", "Null" {
+	Geometry: 80942648, "Geometry::", "Mesh" {
+		Vertices: *36 {
+			a: 444,179.820357142857,-0,555,179.820357142857,-0,555,229.453214285714,-0,444,229.453214285714,-0,222,179.820357142857,-0,333,179.820357142857,-0,333,229.453214285714,-0,222,229.453214285714,-0,111,179.820357142857,-0,111,229.453214285714,-0,0,179.820357142857,-0,0,229.453214285714,-0
+		} 
+		PolygonVertexIndex: *20 {
+			a: 0,1,2,-4,4,5,6,-8,5,0,3,-7,8,4,7,-10,10,8,9,-12
+		} 
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 101
+			Name: ""
+			MappingInformationType: "ByVertice"
+			ReferenceInformationType: "Direct"
+			Normals: *36 {
+				a: 0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1
+			} 
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: ""
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "IndexToDirect"
+			UV: *8 {
+				a: 0,0,1,0,1,1,0,1
+			} 
+			UVIndex: *20 {
+				a: 0,1,2,3,0,1,2,3,0,1,2,3,0,1,2,3,0,1,2,3
+			} 
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: ""
+			MappingInformationType: "ByPolygon"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: *5 {
+				a: 0,0,0,0,0
+			} 
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementTexture"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+		}
+	}
+	Model: 192151216, "Model::Model", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
@@ -334,7 +392,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 232106384, "Model::Group1", "Null" {
+	Model: 81000848, "Model::Group1", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
@@ -342,7 +400,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 231125224, "Model::Mesh1", "Mesh" {
+	Model: 192067584, "Model::Mesh1", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
@@ -351,7 +409,24 @@ Objects:  {
 		Shading: T
 		Culling: "CullingOff"
 	}
-	Material: 77753112, "Material::MetalBulkheads0062_7_S", "" {
+	Model: 190701392, "Model::Group2", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 190704984, "Model::Mesh2", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	Material: 192138464, "Material::MetalBulkheads0062_7_S", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -370,7 +445,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Video: 77860272, "Video::MetalBulkheads0062_7_S_texture", "Clip" {
+	Video: 79702192, "Video::MetalBulkheads0062_7_S_texture", "Clip" {
 		Type: "Clip"
 		Properties70:  {
 			P: "Path", "KString", "XRefUrl", "", "Level_001/MetalBulkheads0062_7_S.jpg"
@@ -379,7 +454,7 @@ Objects:  {
 		Filename: "Level_001/MetalBulkheads0062_7_S.jpg"
 		RelativeFilename: "D:\Unity Projects\project\Assets\Levels\Level_001\Level_001\MetalBulkheads0062_7_S.jpg"
 	}
-	Texture: 230936016, "Texture::MetalBulkheads0062_7_S_texture", "" {
+	Texture: 192119248, "Texture::MetalBulkheads0062_7_S_texture", "" {
 		Type: "TextureVideoClip"
 		Version: 202
 		TextureName: "Texture::MetalBulkheads0062_7_S_texture"
@@ -399,28 +474,43 @@ Objects:  {
 Connections:  {
 	
 	;Model::Model, Model::RootNode
-	C: "OO",232104840,0
+	C: "OO",192151216,0
 	
 	;Model::Group1, Model::Model
-	C: "OO",232106384,232104840
+	C: "OO",81000848,192151216
+	
+	;Model::Group2, Model::Model
+	C: "OO",190701392,192151216
 	
 	;Model::Mesh1, Model::Group1
-	C: "OO",231125224,232106384
+	C: "OO",192067584,81000848
 	
 	;Geometry::, Model::Mesh1
-	C: "OO",230885424,231125224
+	C: "OO",190741672,192067584
 	
 	;Material::MetalBulkheads0062_7_S, Model::Mesh1
-	C: "OO",77753112,231125224
+	C: "OO",192138464,192067584
 	
 	;Texture::MetalBulkheads0062_7_S_texture, Model::Mesh1
-	C: "OO",230936016,231125224
+	C: "OO",192119248,192067584
 	
 	;Video::MetalBulkheads0062_7_S_texture, Texture::MetalBulkheads0062_7_S_texture
-	C: "OO",77860272,230936016
+	C: "OO",79702192,192119248
 	
 	;Texture::MetalBulkheads0062_7_S_texture, Material::MetalBulkheads0062_7_S
-	C: "OP",230936016,77753112, "DiffuseColor"
+	C: "OP",192119248,192138464, "DiffuseColor"
+	
+	;Model::Mesh2, Model::Group2
+	C: "OO",190704984,190701392
+	
+	;Geometry::, Model::Mesh2
+	C: "OO",80942648,190704984
+	
+	;Material::MetalBulkheads0062_7_S, Model::Mesh2
+	C: "OO",192138464,190704984
+	
+	;Texture::MetalBulkheads0062_7_S_texture, Model::Mesh2
+	C: "OO",192119248,190704984
 }
 ;Takes section
 ;----------------------------------------------------
